@@ -1,14 +1,418 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+<html lang="id"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+<link rel="preconnect" href="https://connect.facebook.net">
+<link rel="preconnect" href="https://www.facebook.com">
+<link rel="preconnect" href="https://staticxx.facebook.com">
+<link rel="preconnect" href="https://api.whatsapp.com">
+<link rel="preload" as="fetch" href="/c/xyynkb.json">
+<link rel="preload" as="fetch" href="/style/bass/js/%E5%8D%B0%E5%B0%BC.json">
+<link rel="preload" as="fetch" href="/style/bass/js/default.json">
+<link as="fetch" href="/c/%E5%8D%B0%E5%B0%BC.json">
+<script src="https://connect.facebook.net/signals/config/1506875743846957?v=2.9.239&amp;r=stable&amp;domain=vvv1062.u7vwp8.agency&amp;hme=0e765f8c1c15e34523a2a1dcfb1e6658bdc64adfdb8a2b463c34752b789aa615&amp;ex_m=90%2C152%2C132%2C19%2C66%2C67%2C125%2C62%2C42%2C126%2C71%2C61%2C139%2C79%2C13%2C89%2C27%2C120%2C111%2C69%2C72%2C119%2C136%2C98%2C141%2C7%2C3%2C4%2C6%2C5%2C2%2C80%2C88%2C142%2C219%2C163%2C56%2C224%2C221%2C222%2C49%2C178%2C26%2C68%2C228%2C227%2C166%2C29%2C55%2C8%2C58%2C84%2C85%2C86%2C91%2C115%2C28%2C25%2C118%2C114%2C113%2C133%2C70%2C135%2C134%2C44%2C116%2C54%2C108%2C12%2C138%2C39%2C208%2C210%2C173%2C22%2C23%2C24%2C16%2C17%2C38%2C34%2C36%2C35%2C75%2C81%2C83%2C96%2C124%2C127%2C40%2C97%2C20%2C18%2C102%2C63%2C32%2C129%2C128%2C130%2C121%2C21%2C31%2C53%2C95%2C137%2C64%2C15%2C131%2C30%2C188%2C159%2C270%2C206%2C150%2C191%2C184%2C160%2C93%2C117%2C74%2C106%2C48%2C41%2C104%2C105%2C110%2C52%2C14%2C112%2C103%2C59%2C43%2C99%2C47%2C50%2C46%2C87%2C140%2C0%2C109%2C11%2C107%2C9%2C1%2C51%2C82%2C57%2C60%2C101%2C78%2C77%2C45%2C122%2C76%2C73%2C65%2C100%2C92%2C37%2C123%2C33%2C94%2C10%2C143" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script>let geo="%E5%8D%B0%E5%B0%BC",htmlTyle="M64-ID",jumpName="xyynkb",pix="1506875743846957",wsText="Hallo, saya sangat tertarik dengan pekerjaan paruh waktu ini loo. Bisakah Anda menjelaskan detail dan cara kerjanya gimana ?",wsTyle="0";</script>
+<script type="text/javascript" src="/style/bass/js/idip.js" defer=""></script>
+<link rel="icon" href="data:,">
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1506875743846957');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id=1506875743846957&ev=PageView&noscript=1"/></noscript>
+  <style>
+    body {
+        margin: 0;
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        background-color: #ffeb00;
+        color: #333;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .main {
+        max-width: 680px;
+        margin: auto;
+        padding: 0.8rem 1rem 6rem;
+    }
+    .container {
+        text-align: center;
+    }
+    h1 {
+      color: #000;
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+    .subtitle {
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
+    }
+    .cta-button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 1em 2em;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      margin: 1em 0;
+    }
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+    .hero-img, .extra-img {
+      width: 100%;
+      max-width: 360px;
+      border-radius: 16px;
+      margin: 1em auto;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .steps, .comments {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 1.5em;
+      margin: 2em auto;
+      max-width: 420px;
+      text-align: left;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .steps h3, .comments h3 {
+      margin-top: 0;
+      color: #000;
+    }
+    .note {
+      font-size: 0.9em;
+      color: #555;
+      margin-top: 1em;
+    }
+    .countdown {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-top: 1em;
+    }
+    .comment {
+      border-bottom: 1px solid #eee;
+      padding: 0.5em 0;
+    }
+    #comment_box{
+      text-align: left;
+      margin-top: 10px;
+    }
+    #comment_list dl {
+        margin-bottom: 1rem;
+        font-size: .75rem;
+    }
+
+    #comment_list dl dt {
+        width: 2rem;
+        float: left;
+        padding-top: .3rem;
+    }
+
+    #comment_list dl dt img {
+        height: 2rem;
+        width: 2rem;
+        border-radius: 2rem;
+        display: block;
+    }
+
+    #comment_list dl dd {
+        margin-left: 2.5rem;
+    }
+
+    #comment_list dl dd:last-child {
+        margin-top: .3rem;
+    }
+
+    #comment_list dl dd span {
+        background: #ffdf37;
+        padding: 2px 5px;
+        border-radius: 5px;
+    }
+
+        .appicon {
+            height: 2.8rem;
+            margin: auto;
+            position: fixed;
+            bottom: 5%;
+            right: .8rem;
+        }
+
+        .appicon img {
+            height: 2.8rem;
+            width: 2.8rem;
+            border-radius: .8rem;
+            display: block
+        }
+  </style>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
-</body>
-</html>
+  <div class="main">
+  <div class="container">
+    <img class="hero-img" src="https://www.fresh45air.xyz/style/id/t36/picture/1-1.jpg" alt="Perempuan Senyum">
+    
+    <h1>✅ Cuma Pakai HP &amp; Kuota, Bisa Cuan Harian dari Rumah!</h1>
+    <p class="subtitle">Tanpa pengalaman, hanya butuh HP &amp; kuota | Platform Terpercaya 💼</p>
+    
+    
+<ul style="text-align: left; max-width: 420px; margin: 1.5em auto; font-size: 1.05em;">
+  <li>✅ Tanpa pengalaman &amp; bisa langsung mulai</li>
+  <li>✅ Gaji harian Rp 500rb - 1jt</li>
+  <li>✅ Bisa kerja dari mana saja</li>
+  <li>✅ Waktu fleksibel, cocok sambil urus keluarga</li>
+  <li>✅ Komisi bisa langsung ditarik ke rekening bank</li>
+</ul>
+<p style="color:red; font-weight:bold">Harap jangan klik jika Anda berusia di bawah 25 tahun atau pelajar.</p>
+<button class="cta-button" onclick="window.open('https://api.whatsapp.com/send?phone=6285857735723&text=Hallo,%20saya%20sangat%20tertarik%20dengan%20pekerjaan%20paruh%20waktu%20ini.', '_blank')">
+  ✅ Ketik "HALO" di WhatsApp & Mulai Cuan Hari Ini!
+</button>
+    <p class="countdown" id="countdown">⏰ Kesempatan terbatas: 14m 43s</p>
+
+    <img class="extra-img" src="https://www.fresh45air.xyz/style/id/t20b/static/picture/1.jpg" alt="Bukti Transfer">
+    <img class="extra-img" src="https://www.fresh45air.xyz/style/id/m60/672a685f1e8f8.jpg" alt="Penghasilan Harian">
+    <button class="cta-button" onclick="dj()">✅ Ketik "HALO" di WhatsApp &amp; Mulai Cuan Hari Ini!</button>
+    <div class="steps">
+      <h3>Cara Gabung:</h3>
+      <p>1. Klik tombol biru di atas</p>
+      <p>2. Gabung bersama tim kami</p>
+      <p>3. Mulai belajar &amp; langsung praktek</p>
+      <p>4. Dapatkan penghasilan harian!</p>
+    </div>
+
+    <p class="note">✅ Terbukti membayar, tanpa syarat ribet. Bisa langsung ditarik ke rekening bank!</p>
+
+    <button class="cta-button" onclick="window.open('https://api.whatsapp.com/send?phone=6285857735723&text=Hallo,%20saya%20sangat%20tertarik%20dengan%20pekerjaan%20paruh%20waktu%20ini.', '_blank')">✅ Ketik "HALO" di WhatsApp & Mulai Cuan Hari Ini!  </button>    
+
+  <div id="comment_box" style="height: 556px; overflow: hidden;">
+    <div id="comment_list" style="transform: translateY(-129px);">
+        <dl>
+            <dt><img src="img/img1.jpg"></dt>
+            <dd><span>BintangKejora. </span></dd>
+            <dd>"Saya baru saja mendaftar dan sudah merasa sangat bersemangat! Semoga ini awal dari
+                banyak kesuksesan. "
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="img/img2.jpg"></dt>
+            <dd><span>MamaPintar. </span></dd>
+            <dd>"Kerja dari rumah benar-benar mengubah hidup saya! Terima kasih telah memberi
+                kesempatan ini."
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="img/img3.jpg"></dt>
+            <dd><span>RizalTech. </span></dd>
+            <dd>"Bergabung adalah keputusan terbaik yang pernah saya buat. Dukungan teknisnya sangat
+                membantu, terutama bagi kita yang bukan ahli teknologi."
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="img/img4.jpg"></dt>
+            <dd><span>SariSunshine. </span></dd>
+            <dd>"Saya suka fleksibilitas yang ditawarkan pekerjaan ini! Sempurna untuk seseorang
+                seperti saya yang juga harus mengurus anak-anak di rumah."
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="img/img5.jpg"></dt>
+            <dd><span>PecintaData. </span></dd>
+            <dd>"Luar biasa, saya bisa menggabungkan minat saya dalam analisis data dengan pekerjaan
+                paruh waktu ini. Pendapatan tambahan sangat membantu!"
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="img/img6.jpg"></dt>
+            <dd><span>BintangKejora. </span></dd>
+            <dd>"Saya baru saja mendaftar dan sudah merasa sangat bersemangat! Semoga ini awal dari
+                banyak kesuksesan. "
+            </dd>
+        </dl><dl>
+            <dt><img src="img/img2.jpg"></dt>
+            <dd><span>MamaPintar. </span></dd>
+            <dd>"Kerja dari rumah benar-benar mengubah hidup saya! Terima kasih telah memberi
+                kesempatan ini."
+            </dd>
+        </dl><dl>
+            <dt><img src="img/img3.jpg"></dt>
+            <dd><span>RizalTech. </span></dd>
+            <dd>"Bergabung adalah keputusan terbaik yang pernah saya buat. Dukungan teknisnya sangat
+                membantu, terutama bagi kita yang bukan ahli teknologi."
+            </dd>
+        </dl><dl>
+            <dt><img src="img/img4.jpg"></dt>
+            <dd><span>SariSunshine. </span></dd>
+            <dd>"Saya suka fleksibilitas yang ditawarkan pekerjaan ini! Sempurna untuk seseorang
+                seperti saya yang juga harus mengurus anak-anak di rumah."
+            </dd>
+        </dl><dl>
+            <dt><img src="img/img5.jpg"></dt>
+            <dd><span>PecintaData. </span></dd>
+            <dd>"Luar biasa, saya bisa menggabungkan minat saya dalam analisis data dengan pekerjaan
+                paruh waktu ini. Pendapatan tambahan sangat membantu!"
+            </dd>
+        </dl>
+      <dl>
+            <dt><img src="/img/img6.jpg"></dt>
+            <dd><span>BintangKejora. </span></dd>
+            <dd>"Saya baru saja mendaftar dan sudah merasa sangat bersemangat! Semoga ini awal dari
+                banyak kesuksesan. "
+            </dd>
+        </dl><dl>
+            <dt><img src="img/img1.jpg"></dt>
+            <dd><span>MamaPintar. </span></dd>
+            <dd>"Kerja dari rumah benar-benar mengubah hidup saya! Terima kasih telah memberi
+                kesempatan ini."
+            </dd>
+        </dl><dl>
+            <dt><img src="img/img2.jpg"></dt>
+            <dd><span>RizalTech. </span></dd>
+            <dd>"Bergabung adalah keputusan terbaik yang pernah saya buat. Dukungan teknisnya sangat
+                membantu, terutama bagi kita yang bukan ahli teknologi."
+            </dd>
+        </dl><dl>
+            <dt><img src="img/img3.jpg"></dt>
+            <dd><span>SariSunshine. </span></dd>
+            <dd>"Saya suka fleksibilitas yang ditawarkan pekerjaan ini! Sempurna untuk seseorang
+                seperti saya yang juga harus mengurus anak-anak di rumah."
+            </dd>
+        </dl><dl>
+            <dt><img src="img/img4.jpg"></dt>
+            <dd><span>PecintaData. </span></dd>
+            <dd>"Luar biasa, saya bisa menggabungkan minat saya dalam analisis data dengan pekerjaan
+                paruh waktu ini. Pendapatan tambahan sangat membantu!"
+            </dd>
+        </dl><dl>
+            <dt><img src="img/img5.jpg"></dt>
+            <dd><span>BintangKejora. </span></dd>
+            <dd>"Saya baru saja mendaftar dan sudah merasa sangat bersemangat! Semoga ini awal dari
+                banyak kesuksesan. "
+            </dd>
+        </dl><dl>
+            <dt><img src="img/img1.jpg"></dt>
+            <dd><span>MamaPintar. </span></dd>
+            <dd>"Kerja dari rumah benar-benar mengubah hidup saya! Terima kasih telah memberi
+                kesempatan ini."
+            </dd>
+        </dl><dl>
+            <dt><img src="img/img2.jpg"></dt>
+            <dd><span>RizalTech. </span></dd>
+            <dd>"Bergabung adalah keputusan terbaik yang pernah saya buat. Dukungan teknisnya sangat
+                membantu, terutama bagi kita yang bukan ahli teknologi."
+            </dd>
+        </dl><dl>
+            <dt><img src="img/img3.jpg"></dt>
+            <dd><span>SariSunshine. </span></dd>
+            <dd>"Saya suka fleksibilitas yang ditawarkan pekerjaan ini! Sempurna untuk seseorang
+                seperti saya yang juga harus mengurus anak-anak di rumah."
+            </dd>
+        </dl><dl>
+            <dt><img src="img/img4.jpg"></dt>
+            <dd><span>PecintaData. </span></dd>
+            <dd>"Luar biasa, saya bisa menggabungkan minat saya dalam analisis data dengan pekerjaan
+                paruh waktu ini. Pendapatan tambahan sangat membantu!"
+            </dd>
+        </dl></div>
+    </div>
+  
+<div class="steps">
+  <h3>Mengapa Banyak yang Gabung?</h3>
+  <p>✔ Sudah ribuan peserta terbukti berhasil</p>
+  <p>✔ Tidak diperlukan pengalaman</p>
+  <p>✔ Sistem kerja simpel &amp; bisa dipelajari siapa saja</p>
+</div>
+<button class="cta-button" onclick="dj()">✅ Ketik "HALO" di WhatsApp &amp; Mulai Cuan Hari Ini!</button>
+
+<div class="appicon" onclick="dj()"><img src="img/wa.gif"></div>
+
+<script language="javascript">
+    // Countdown Timer
+    let countdownDate = new Date();
+    countdownDate.setMinutes(countdownDate.getMinutes() + 15);
+
+    function updateCountdown() {
+      let now = new Date().getTime();
+      let distance = countdownDate - now;
+
+      let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      document.getElementById("countdown").innerHTML = `⏰ Kesempatan terbatas: ${minutes}m ${seconds}s`;
+
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "Promo telah berakhir!";
+      }
+    }
+
+    let x = setInterval(updateCountdown, 1000);
+
+
+
+  function open(content, success) {
+      var obj = $C('DialogBox');
+      if (obj) {
+          obj.innerHTML = content || '';
+      } else {
+          obj = document.createElement("div");
+          obj.setAttribute("class", "Dialog");
+          obj.innerHTML = '<div id="DialogBox">' + (content || '') + '</div>';
+          document.body.appendChild(obj);
+          setTimeout(function () {
+              obj.classList.add("visible");
+          }, 100);
+      }
+      typeof success === 'function' && success();
+  }
+
+  function reset() {
+      var obj = $C('DialogBox');
+      obj && obj.parentNode.remove(obj);
+  }
+
+  /*scroll*/
+  const comment_box = document.getElementById("comment_box");
+  if (comment_box) {
+      const list = document.getElementById("comment_list");
+      const height = list.offsetHeight;
+      const items = list.children;
+      const numItems = items.length;
+      for (let i = 0; i < numItems; i++) {
+          list.appendChild(items[i].cloneNode(true));
+      }
+      comment_box.style.height = height + 'px';
+      comment_box.style.overflow = 'hidden';
+      let offset = 0;
+
+      function scroll() {
+          list.style.transform = `translateY(-${offset}px)`;
+          offset += 0.2;
+          if (offset >= (height + 15)) {
+              offset = 0;
+              list.style.transform = `translateY(0)`;
+          }
+          requestAnimationFrame(scroll);
+      }
+
+      scroll();
+  }/*scrollEND*/
+  const wows = document.querySelectorAll('.wow');
+  const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+          }
+      });
+  });
+  wows.forEach(wow => {
+      observer.observe(wow);
+  });
+</script>
+</div>
+
+
+</div></body></html>
